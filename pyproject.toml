@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kettlebrand"
+version = "0.1.0"
+description = "Creating my first package"
+authors = ["Demo"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+google-api-python-client = "^1.9.3"
+google-cloud-bigquery = "^1.25.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
